@@ -1,5 +1,5 @@
 class devtools {
-    package {["git", "vdt-emacs", "apt-show-versions"]:
+    package {["git", "vdt-emacs", "apt-show-versions", "mc"]:
         ensure => 'latest'
     } ->
     
