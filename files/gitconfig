@@ -1,0 +1,16 @@
+[user]
+	name = Puppetmaster
+	email = puppetmaster@avira.com
+[alias]
+	ci = commit
+	ca = commit -a
+	st = status
+	rb = rebase
+	lc = log ORIG_HEAD.. --stat --no-merges
+	co = checkout
+	br = branch
+	puff = pull --ff-only
+	substatus = submodule foreach git ls-files -m
+	substat = submodule --quiet foreach 'echo $path: `git ls-files -m | wc -l`'
+[color]
+	ui = auto
